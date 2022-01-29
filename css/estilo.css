@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+html, body{
+   height: 100%; 
+}
+
+.clear{
+    clear: both;
+}
+
+/* ===============HEADER========== */
+.header{
+    background: #ccc8c8;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 140px;
+    
+}
+
+.logo{
+    width: 33.3%;
+    max-width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #3380d3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+/*============MENU=============*/
+.icon-menu{       /*Meu hamburguer*/
+    display: none;
+}
+
+.menu ul li{
+    display: inline;
+    font-size:18px;
+    padding: 8px;
+    background:#3380d3;
+    border-radius: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*=======MAIN / BACKGROUND=======*/
+
+.main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main .bg{
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    display: grid;
+    align-content: center;
+}
+
+
+.bg_texto{
+    width: 100%;
+    max-width: 350px;
+    margin-left: 20px;
+    padding: 30px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    line-height: 60px;
+    color: white;
+    font-size: 2.0rem;
+} 
+/*=========SECTION-FORM=========*/
+
+.section-form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #AAAAAA;
+}
+
+.section-text{
+    text-align: center;
+    color: white;
+}
+
+.section-text h1{
+    padding: 20px 0;
+}
+
+.section-text p{
+    font-size: 20px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.form p{
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.section-form .input{
+    width: 100%;
+    max-width: 600px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.option-estado{
+    margin-top: 15px;
+}
+
+#estado{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background: #0069D9;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #005cbe;
+}
+
+
+input[value]{
+    font-size: 1.2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    max-height: 150px;
+    text-align: center;
+    font-size: 1.2rem;
+    background:#838282;
+    color: white;
+}
+
+
+/*
+////////////////Pagina Quem sommos//////////////////
+*/
+
+@media(max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 550px){
+
+    .header{
+        display: relative;
+    }
+
+    .menu{
+        position: relative;
+        top: 110px;
+        width: 100%;
+        padding: 0 10px;
+        z-index: 1;
+    }
+    .menu ul li{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .menu ul li:hover{
+        background-color: #0154ad;
+    }
+    .logo{
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    .header .menu ul{
+       display: none;
+    }
+
+    .icon-menu{
+        display: block;
+        cursor: pointer;
+        padding: 10px 0;
+        transition: 0.5s;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+
+    .icon-menu img{
+        width: 42px;
+        text-align: center;
+    }
+
+    .header .menu ul.mostra{
+        display: block;
+        
+    }
+}
