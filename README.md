@@ -8,20 +8,25 @@
 ### Projeto.
 
 
-<div display="flex">
-<img src="https://user-images.githubusercontent.com/87508400/151679074-1505a584-0ac6-439e-9652-a732f4a4b3db.JPG" >
-<img src="https://user-images.githubusercontent.com/87508400/151679077-e4334ace-184e-4f8e-96d6-77195d595712.JPG" >
+<div>
+<img src="https://user-images.githubusercontent.com/87508400/151840266-e49da193-49cd-42d5-b20b-93677fa20fec.JPG" >
+<img src="https://user-images.githubusercontent.com/87508400/151840270-d163c59e-7a0e-4a98-bcc4-cb1813839de0.JPG" >
 </div>.
 
 # Tecnologia:
 
-> HTML; <br/> 
+> PHP; <br/> 
 > 
 > CSS; <br/>
 > 
+> MySQL;
+> 
+> JavaScrip;
+> 
+
 
 
  ## Desenvolvimento:
--As funções deste menu foram feitas apenas usando HTML5 e CSS3. <br />
--O efeito de clique foi desenvolvido com funções do CSS3.<br />
--Nesse projeto pude explorar diversas funções do CSS3, com isso aprendi que muitas ferramentas podem ser desenvolvidas através desta linguagem. <br />
+-O projeto é full stack, o banco de dados foi desenvolvido com MySQL. <br />
+-Quando a página chega ao width de 730px, o menu vira mobile e o efeito de clique foi feito com a biblioteca jQuery.<br />
+
